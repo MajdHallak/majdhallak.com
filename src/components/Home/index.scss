@@ -1,0 +1,119 @@
+$primary-yellow: #f7ce00;
+
+
+.home-page {
+    cursor: default;
+
+    .text-zone {
+        position: absolute;
+        left: 9%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40%;
+        max-height: 90%;
+    }
+
+    h1 {
+        color: #fff;
+        font-size: 53px;
+        margin: 0;
+        font-family: 'coolvetica';
+        font-weight: 400;
+        width: 130%;
+
+        &::before{
+            content: "<h1>";
+            font-family: 'La Bella Aurore';
+            color: $primary-yellow;
+            font-size: 10px;
+            position: absolute;
+            margin-top: -40px;
+            left: 15px;
+            opacity: 0.6;
+        }
+
+        &::after {
+            content: '<h1/>';
+            font-family: 'La Bella Aurore';
+            color: $primary-yellow;
+            font-size: 10px;
+            position: absolute;
+            margin-top: 10px;
+            margin-left: 20px;
+            animation: fadeIn 1s 1.7s backwards;
+            opacity: 0.6;
+        }
+
+        img {
+            width: 50px;
+        }
+    }
+
+    h2 {
+        color: #8d8d8d;
+        width: 450px;
+        margin-top:  20px;
+        font-weight: 400;
+        font-size: 13px;
+        font-family: sans-serif;
+        letter-spacing: 3px;
+        animation: fadeIn 1s 1.8s backwards;
+
+        &:hover{
+            color: $primary-yellow;
+            font-weight: 600;
+            cursor: none;
+        }
+    }
+
+    .flat-button {
+        color: $primary-yellow;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 1px solid $primary-yellow;
+        margin-top: 25px;
+        float: left;
+        animation: fadeInAnimation 1s 1.8s backwards;
+        white-space: nowrap;
+
+        &:hover {
+            background: $primary-yellow;
+            color: #333;
+        }
+    }
+
+    .m-logo{
+        display: inline-block;
+        width: 40px;
+        height: 50px;
+        margin-left: 10px;
+        margin-right: 4px;
+
+        &:hover {
+            animation: rubberBand 0.7s;
+            color: $primary-yellow;
+            margin-right: 5px;
+        }
+    }
+
+    @keyframes flip {
+        0%,30%,60% {
+          transform: rotateZ(340deg)
+        }
+      }
+
+    span {
+        letter-spacing: 7px;
+    }
+
+    .span1 {
+        letter-spacing: 4px;
+    }
+    .span2 {
+        letter-spacing: 2px;
+    }
+}
