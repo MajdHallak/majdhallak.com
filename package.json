@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "npm": ">=8.1.2",
-    "node": ">=16.13.1"
+    "npm": "8.1.2",
+    "node": "16.13.1"
   },
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
