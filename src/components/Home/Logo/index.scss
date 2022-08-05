@@ -1,24 +1,24 @@
 $primary-yellow: #f7ce00;
 
 .logo-container {
-    width: 700px;
-    height: 450px;
+    width: 50%;
+    height: 50%;
     position: absolute;
     top: 0;
-    bottom: 3;
     right: 0;
+    bottom: 3;
     left: auto;
     margin: auto;
     z-index: -1;
-
+    
     svg {
-        width: 90%;
+        width: 100%;
         transform: rotateZ(30deg) !important;
     }
 }
 
 #path {
-    stroke-width: 2px;
+    stroke-width: 1.5px;
     stroke: $primary-yellow;
     fill: #082135;
     stroke-dasharray: 5000;

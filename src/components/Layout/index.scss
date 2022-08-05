@@ -65,28 +65,28 @@ $primary-yellow: #f7ce00;
         margin-bottom: 10px;
         left: 10px;
 
-        &::before {
-            content: "<h1>";
-            font-family: 'La Bella Aurore';
-            font-size: 18px;
-            line-height: 18px;
-            position: absolute;
-            margin-top: -10px;
-            left: -10px;
-            opacity: 0.6;
-        }
+        // &::before {
+        //     content: "<h1>";
+        //     font-family: 'La Bella Aurore';
+        //     font-size: 18px;
+        //     line-height: 18px;
+        //     position: absolute;
+        //     margin-top: -10px;
+        //     left: -10px;
+        //     opacity: 0.6;
+        // }
 
-        &::after {
-            content: "<h1/>";
-            font-family: 'La Bella Aurore';
-            font-size: 18px;
-            line-height: 18px;
-            position: absolute;
-            left: -30px;
-            bottom: -20px;
-            margin-left: 20px;
-            opacity: 0.6;
-        }
+        // &::after {
+        //     content: "<h1/>";
+        //     font-family: 'La Bella Aurore';
+        //     font-size: 18px;
+        //     line-height: 18px;
+        //     position: absolute;
+        //     left: -30px;
+        //     bottom: -20px;
+        //     margin-left: 20px;
+        //     opacity: 0.6;
+        // }
     }
 
     p {

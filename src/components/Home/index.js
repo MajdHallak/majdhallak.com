@@ -1,6 +1,6 @@
 /* eslint-disable no-template-curly-in-string */
 
-import MLogo from '../../assets/images/M-logo-nobg 3.png'
+import MLogo from '../../assets/images/M-logo-title.png'
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters'

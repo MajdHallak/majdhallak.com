@@ -21,28 +21,28 @@ $primary-yellow: #f7ce00;
         font-weight: 400;
         width: 130%;
 
-        &::before{
-            content: "<h1>";
-            font-family: 'La Bella Aurore';
-            color: $primary-yellow;
-            font-size: 10px;
-            position: absolute;
-            margin-top: -40px;
-            left: 15px;
-            opacity: 0.6;
-        }
+        // &::before{
+        //     content: "<h1>";
+        //     font-family: 'La Bella Aurore';
+        //     color: $primary-yellow;
+        //     font-size: 10px;
+        //     position: absolute;
+        //     margin-top: -40px;
+        //     left: 15px;
+        //     opacity: 0.6;
+        // }
 
-        &::after {
-            content: '<h1/>';
-            font-family: 'La Bella Aurore';
-            color: $primary-yellow;
-            font-size: 10px;
-            position: absolute;
-            margin-top: 10px;
-            margin-left: 20px;
-            animation: fadeIn 1s 1.7s backwards;
-            opacity: 0.6;
-        }
+        // &::after {
+        //     content: '<h1/>';
+        //     font-family: 'La Bella Aurore';
+        //     color: $primary-yellow;
+        //     font-size: 10px;
+        //     position: absolute;
+        //     margin-top: 10px;
+        //     margin-left: 20px;
+        //     animation: fadeIn 1s 1.7s backwards;
+        //     opacity: 0.6;
+        // }
 
         img {
             width: 50px;
@@ -88,15 +88,14 @@ $primary-yellow: #f7ce00;
 
     .m-logo{
         display: inline-block;
-        width: 40px;
+        width: 45px;
         height: 50px;
         margin-left: 10px;
         margin-right: 4px;
 
         &:hover {
-            animation: rubberBand 0.7s;
+            animation: rubberBand 0.8s;
             color: $primary-yellow;
-            margin-right: 5px;
         }
     }
 

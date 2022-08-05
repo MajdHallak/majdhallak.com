@@ -98,7 +98,11 @@ const Contact = () => {
           <br />
           United Kingdom, bournemouth <br />
           Charminster Road <br />
-          <span>majdhallak@gmail.com</span>
+          <span>
+            {/* +44 7575600068 */}
+            {/* <br /> */}
+            majdhallak@gmail.com
+          </span>
         </div>
       </div>
       <Loader type="line-scale" />
