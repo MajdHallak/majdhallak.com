@@ -48,7 +48,7 @@ $primary-yellow: #f7ce00;
         
     }
 
-    textarea { 
+    textarea {
         width: 100%;
         border: 0;
         background-color: #115173;
@@ -88,16 +88,14 @@ $primary-yellow: #f7ce00;
         }
     }
 
-   
-    
-    .info-map {
+    .info-card {
         position: absolute;
         background-color: #000;
         top: 38%;
-        right: 15%;
+        right: 15rem;
         z-index: 10;
-        width: 267px;
-        padding: 20px;
+        width: 27rem;
+        padding: 2rem;
         color: #fff;
         font-family: 'Helvetica';
         font-size: 17px;
@@ -112,5 +110,15 @@ $primary-yellow: #f7ce00;
             padding-top: 20px;
             color: #ffd700;
         }
+    }
+
+    @media (max-width:1000px){
+        .info-card {
+            top: 90%;
+            left: 16.5rem;
+            animation: fadeIn 5s 2.55s;
+            animation-fill-mode: forwards;
+        }
+
     }
 }

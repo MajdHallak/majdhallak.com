@@ -6,7 +6,7 @@ $primary-yellow: #f7ce00;
 
     .text-zone {
         position: absolute;
-        left: 9%;
+        left: 14rem;
         top: 50%;
         transform: translateY(-50%);
         width: 40%;
@@ -15,43 +15,22 @@ $primary-yellow: #f7ce00;
 
     h1 {
         color: #fff;
-        font-size: 53px;
-        margin: 0;
+        font-size: 43px;
+        margin: 0 0 0 0;
         font-family: 'coolvetica';
         font-weight: 400;
-        width: 130%;
+        width: 100%;
 
-        // &::before{
-        //     content: "<h1>";
-        //     font-family: 'La Bella Aurore';
-        //     color: $primary-yellow;
-        //     font-size: 10px;
-        //     position: absolute;
-        //     margin-top: -40px;
-        //     left: 15px;
-        //     opacity: 0.6;
-        // }
+    }
 
-        // &::after {
-        //     content: '<h1/>';
-        //     font-family: 'La Bella Aurore';
-        //     color: $primary-yellow;
-        //     font-size: 10px;
-        //     position: absolute;
-        //     margin-top: 10px;
-        //     margin-left: 20px;
-        //     animation: fadeIn 1s 1.7s backwards;
-        //     opacity: 0.6;
-        // }
-
-        img {
-            width: 50px;
-        }
+    ul{
+        padding: 0;
+        margin: 2rem;
     }
 
     h2 {
         color: #8d8d8d;
-        width: 450px;
+        width: 300%;
         margin-top:  20px;
         font-weight: 400;
         font-size: 13px;
@@ -69,7 +48,7 @@ $primary-yellow: #f7ce00;
     .flat-button {
         color: $primary-yellow;
         font-size: 13px;
-        font-weight: 400;
+        font-weight: 500;
         letter-spacing: 4px;
         font-family: sans-serif;
         text-decoration: none;
@@ -89,7 +68,7 @@ $primary-yellow: #f7ce00;
     .m-logo{
         display: inline-block;
         width: 45px;
-        height: 50px;
+        height: 45px;
         margin-left: 10px;
         margin-right: 4px;
 
@@ -116,3 +95,29 @@ $primary-yellow: #f7ce00;
         letter-spacing: 2px;
     }
 }
+
+
+
+
+// &::before{
+        //     content: "<h1>";
+        //     font-family: 'La Bella Aurore';
+        //     color: $primary-yellow;
+        //     font-size: 10px;
+        //     position: absolute;
+        //     margin-top: -40px;
+        //     left: 15px;
+        //     opacity: 0.6;
+        // }
+
+        // &::after {
+        //     content: '<h1/>';
+        //     font-family: 'La Bella Aurore';
+        //     color: $primary-yellow;
+        //     font-size: 10px;
+        //     position: absolute;
+        //     margin-top: 10px;
+        //     margin-left: 20px;
+        //     animation: fadeIn 1s 1.7s backwards;
+        //     opacity: 0.6;
+        // }

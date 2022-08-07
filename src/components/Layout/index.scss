@@ -46,7 +46,7 @@ $primary-yellow: #f7ce00;
 .contact-page {
     .text-zone {
         position: absolute;
-        left: 10%;
+        left: 15em;
         top: 50%;
         transform: translateY(-50%);
         width: 35%;
@@ -54,6 +54,13 @@ $primary-yellow: #f7ce00;
         display: table-cell;
         max-height: 90%;
     }
+
+    @media (max-width: 1000px){
+        .text-zone {
+            width: 60%;
+        }
+    }
+    
 
     h1 {
         font-size: 53px;

@@ -7,6 +7,7 @@
     "node": "16.13.1"
   },
   "dependencies": {
+    "@react-native-responsive-scree": "^1.4.2",
     "@emailjs/browser": "^3.6.2",
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
     "@fortawesome/free-brands-svg-icons": "^6.1.2",

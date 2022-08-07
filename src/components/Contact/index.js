@@ -93,7 +93,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="info-map">
+        <div className="info-card">
           Majd Hallak,
           <br />
           United Kingdom, bournemouth <br />

@@ -7,16 +7,15 @@ import AnimatedLetters from '../AnimatedLetters'
 import Logo from './Logo'
 import './index.scss'
 import Loader from 'react-loaders'
+// import {
+//   widthPercentageToDP as wp,
+//   heightPercentageToDP as hp,
+// } from 'react-native-responsive-screen'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const nameArray = ['a', 'j', 'd']
   const jobArray1 = [
-    "I'",
-    'm',
-    ' ',
-    'a',
-    ' ',
     'S',
     'o',
     'f',
@@ -38,8 +37,6 @@ const Home = () => {
   ]
   const jobArray2 = [
     '& ',
-    ' ',
-    'a',
     ' ',
     'W',
     'e',
@@ -79,7 +76,7 @@ const Home = () => {
             <span className={letterClass}>H</span>
             <span className={`${letterClass} _12`}>i,</span> {/* 1.2s */}
             <br />
-            <span className={`${letterClass} _13 span2`}>i</span>
+            <span className={`${letterClass} _13 span2`}>I</span>
             <span className={`${letterClass} _14 span1`}>t</span>
             <span className={`${letterClass} _15 span1`}>'s</span>
             <span className={`${letterClass} _15 span1`}> </span>
@@ -100,7 +97,7 @@ const Home = () => {
             <AnimatedLetters
               letterClass={letterClass}
               strArray={jobArray2}
-              idx={20}
+              idx={21}
             />
           </h1>
           <ul>
