@@ -1,4 +1,7 @@
 {
+  "name": "portfolio",
+  "lockfileVersion": 2,
+  "requires": true,
   "engines": {
     "node": ">=16.13.1",
     "npm": ">=8.15.0"
@@ -14,7 +17,6 @@
     "react": "^18.2.0",
     "react-leaflet": "^4.0.1",
     "react-loaders": "^3.0.1",
-    "react-native": "^0.69.3",
     "react-router-dom": "^6.3.0",
     "sass": "^1.54.3"
   }
