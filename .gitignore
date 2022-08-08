@@ -8,11 +8,11 @@ node_modules
 /package-lock.json
 package-lock.json
 package-lock.json 20-57-12-842.json
+package.json 22-05-07-244.json
 
 # testing
 /coverage
 testing.js
-/testing.js
 
 # production
 /build
