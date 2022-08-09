@@ -3,11 +3,12 @@
   "lockfileVersion": 2,
   "requires": true,
   "engines": {
-    "node": ">=16.13.1",
-    "npm": ">=8.15.0"
+    "node": ">=16.13.0",
+    "npm": ">=8.0.0"
   },
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
+    "@fortawesome/fontawesome-svg-core": "^6.1.2",
     "@fortawesome/free-brands-svg-icons": "^6.1.2",
     "@fortawesome/free-solid-svg-icons": "^6.1.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
@@ -15,9 +16,30 @@
     "gsap-trial": "^3.10.4",
     "loaders.css": "^0.1.2",
     "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-leaflet": "^4.0.1",
     "react-loaders": "^3.0.1",
     "react-router-dom": "^6.3.0",
-    "sass": "^1.54.3"
+    "react-scripts": "^5.0.1",
+    "sass": "^1.54.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
