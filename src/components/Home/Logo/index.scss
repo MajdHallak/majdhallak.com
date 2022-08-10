@@ -10,11 +10,17 @@ $primary-yellow: #f7ce00;
     left: auto;
     margin: auto;
     z-index: -1;
-    
-    svg {
-        width: 100%;
-        transform: rotateZ(30deg) !important;
+}
+
+@media (max-width:600px) {
+    .logo-container{
+        opacity: 0.8;
     }
+}
+
+svg {
+    width: 100%;
+    transform: rotateZ(30deg) !important;
 }
 
 #path {

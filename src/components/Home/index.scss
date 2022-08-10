@@ -38,15 +38,17 @@ $primary-yellow: #f7ce00;
 
     @media (max-width:600px) {
         .text-zone{
+            left: 12em;
+            top: 63%;
             width: auto;
-            max-width: 60%;
+            max-width: 65%;
         }
         h1{
-            font-size: 19px;
+            font-size: 24px;
         }
         .m-logo{
-            width: 19px;
-            height: 19px;
+            width: 21px;
+            height: 21px;
         }
         ul{
             width: min-content;

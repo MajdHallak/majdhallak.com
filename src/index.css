@@ -8,11 +8,10 @@ body {
   font: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
   color: #444;
   /* background: #0c3656; */
-  background: linear-gradient(270deg, #09273e, #133956);
+  background: linear-gradient(-270deg, #09273e, #133956);
   background-size: 400% 400%;
   /* animation: background-animate 7s ease-in infinite; */
   overflow: auto;
-  scroll-behavior: smooth;
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
