@@ -9,7 +9,7 @@ $primary-yellow: #f7ce00;
         left: 14rem;
         top: 50%;
         transform: translateY(-50%);
-        width: 40%;
+        width: 75%;
         max-height: 90%;
     }
 
@@ -23,9 +23,40 @@ $primary-yellow: #f7ce00;
 
     }
 
+    .m-logo{
+        display: inline-block;
+        width: 45px;
+        height: 45px;
+        margin-left: 10px;
+        margin-right: 4px;
+
+        &:hover {
+            animation: rubberBand 0.8s;
+            color: $primary-yellow;
+        }
+    }
+
+    @media (max-width:600px) {
+        .text-zone{
+            width: auto;
+            max-width: 60%;
+        }
+        h1{
+            font-size: 19px;
+        }
+        .m-logo{
+            width: 19px;
+            height: 19px;
+        }
+        ul{
+            width: min-content;
+        }
+    }
+
     ul{
         padding: 0;
         margin: 2rem;
+        width: 30%;
     }
 
     h2 {
@@ -62,19 +93,6 @@ $primary-yellow: #f7ce00;
         &:hover {
             background: $primary-yellow;
             color: #333;
-        }
-    }
-
-    .m-logo{
-        display: inline-block;
-        width: 45px;
-        height: 45px;
-        margin-left: 10px;
-        margin-right: 4px;
-
-        &:hover {
-            animation: rubberBand 0.8s;
-            color: $primary-yellow;
         }
     }
 
