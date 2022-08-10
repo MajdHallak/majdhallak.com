@@ -128,3 +128,16 @@ $primary-yellow: #f7ce00;
         }
     }
 }
+
+@media (max-width: 600px){
+    .nav-bar {
+        width: 75px;
+
+        img {
+            &.sub-logo{
+                width: 70px;
+                height: auto;
+            }
+        }
+    }
+}
