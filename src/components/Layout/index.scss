@@ -55,18 +55,11 @@ $primary-yellow: #f7ce00;
         max-height: 90%;
     }
 
-    @media (max-width: 1000px){
-        .text-zone {
-            width: 60%;
-        }
-    }
-    
-
     h1 {
         font-size: 53px;
         font-family: "coolvetica";
         color: $primary-yellow;
-        font-weight: 400;
+        font-weight: 200;
         margin-top: 0;
         position: relative;
         margin-bottom: 10px;
@@ -95,6 +88,15 @@ $primary-yellow: #f7ce00;
         // }
     }
 
+    @media (max-width: 600px){
+        .text-zone {
+            width: 60%;
+        }
+        h1{
+            font-size: 43px;
+        }
+    }
+
     p {
         font-size: 13px;
         color: #fff;
@@ -112,7 +114,13 @@ $primary-yellow: #f7ce00;
         &:nth-of-type(3) {
             animation-delay: 1.3s;
         }
-    }
+    }   
+}
 
-    
+@media (max-width: 700px){
+    .about-page{
+        .text-zone {
+            top: 25%;
+    }
+}
 }
