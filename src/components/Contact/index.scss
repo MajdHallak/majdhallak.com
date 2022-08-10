@@ -4,6 +4,7 @@ $primary-yellow: #f7ce00;
     width: 100%;
     margin-top: 20px;
 
+
     ul {
         padding: 0;
         margin: 0;
@@ -94,7 +95,8 @@ $primary-yellow: #f7ce00;
         top: 38%;
         right: 15rem;
         z-index: 10;
-        width: 27rem;
+        max-width: 27rem;
+        width: auto;
         padding: 2rem;
         color: #fff;
         font-family: 'Helvetica';
@@ -114,10 +116,13 @@ $primary-yellow: #f7ce00;
 
     @media (max-width:1000px){
         .info-card {
-            top: 90%;
-            left: 16.5rem;
+            position: relative;
+            top: 80%;
+            left: 14.5rem;
+            width: 24rem;
             animation: fadeIn 5s 2.55s;
             animation-fill-mode: forwards;
+            margin-top: 100px;
         }
 
     }
