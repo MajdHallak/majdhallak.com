@@ -4,6 +4,12 @@ import './index.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 import { BrowserRouter } from 'react-router-dom'
+import ReactGA from 'react-ga'
+
+const google_analytics_id = process.env.REACT_APP_G_LYT_ID
+
+ReactGA.initialize(google_analytics_id)
+ReactGA.pageview(window.location.pathname + window.location.search)
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
