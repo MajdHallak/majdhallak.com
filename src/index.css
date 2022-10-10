@@ -11,10 +11,14 @@ body {
   background: linear-gradient(-270deg, #09273e, #133956);
   background-size: 400% 400%;
   /* animation: background-animate 7s ease-in infinite; */
-  overflow: auto;
+  overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  overflow: auto;
 }
 
 body::-webkit-scrollbar {

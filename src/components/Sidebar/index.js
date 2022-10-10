@@ -10,31 +10,24 @@ const github = 'https://github.com/MajdHallak'
 
 const Sidebar = () => (
   <div className="nav-bar">
-    <Link className="logo" to="/">
+    <Link className="logo" to="/home">
       <img className="sub-logo" src={LogoMjd} color="white" alt="Amigo" />
     </Link>
 
     <nav>
-      <NavLink exact="true" activeclassname="active" to="/">
+      <NavLink exact className="home-link" to="/home">
         <FontAwesomeIcon icon={faHome} color="white" />
       </NavLink>
-      <NavLink
-        exact="true"
-        activeclassname="active"
-        className="about-link"
-        to="/about"
-      >
+
+      <NavLink exact className="about-link" to="/about">
         <FontAwesomeIcon icon={faUser} color="white" />
       </NavLink>
-      <NavLink
-        exact="true"
-        activeclassname="active"
-        className="contact-link"
-        to="/contact"
-      >
+
+      <NavLink exact className="contact-link" to="/contact">
         <FontAwesomeIcon icon={faEnvelope} color="white" />
       </NavLink>
     </nav>
+
     <ul>
       <li>
         <a
