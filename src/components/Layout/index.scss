@@ -44,6 +44,7 @@ $primary-yellow: #f7ce00;
 
 .about-page,
 .contact-page {
+    overflow: hidden;
     .text-zone {
         position: absolute;
         left: 13em;
@@ -119,6 +120,7 @@ $primary-yellow: #f7ce00;
 
 @media (max-width: 700px){
     .about-page{
+        overflow: auto;
         .text-zone {
             top: 25%;
     }

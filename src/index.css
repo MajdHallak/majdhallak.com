@@ -15,14 +15,17 @@ body {
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-body{
-  overflow: auto;
+  overflow: hidden;
 }
 
 body::-webkit-scrollbar {
   display: none;
+}
+
+@media (max-width: 700px){
+  body{
+    overflow: auto;
+  }
 }
 
 @keyframes background-animate {

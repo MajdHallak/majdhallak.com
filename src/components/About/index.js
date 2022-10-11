@@ -7,11 +7,16 @@ import {
   faGitAlt,
   faHtml5,
   faJsSquare,
+  faLaravel,
   faPython,
   faReact,
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
-import { faDatabase } from '@fortawesome/free-solid-svg-icons'
+import {
+  faArrowAltCircleLeft,
+  faBasketball,
+  faDatabase,
+} from '@fortawesome/free-solid-svg-icons'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -52,7 +57,7 @@ const About = () => {
               <div className="dot"></div>
               <div className="dot"></div>
               <div className="dot"></div>
-              <div className="dot-none"></div>
+              <div className="dot"></div>
               <div className="dot-none"></div>
             </p>
           </div>
@@ -81,6 +86,9 @@ const About = () => {
             <div className="face7">
               <FontAwesomeIcon icon={faDatabase} />
             </div>
+            {/* <div className="face8">
+              <FontAwesomeIcon icon={faLaravel} />
+            </div> */}
           </div>
         </div>
       </div>
