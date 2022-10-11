@@ -51,7 +51,7 @@ const About = () => {
             I'm quietly confident, naturally curious, and perpetually working on
             improving my chops one design problem at a time.
           </p>
-          <div className="prog-skills">
+          {/* <div className="prog-skills">
             <p className="lang">
               <span>Python</span>
               <div className="dot"></div>
@@ -60,7 +60,7 @@ const About = () => {
               <div className="dot"></div>
               <div className="dot-none"></div>
             </p>
-          </div>
+          </div> */}
         </div>
 
         <div className="stage-cube-cont">
