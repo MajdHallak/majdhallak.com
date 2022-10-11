@@ -59,6 +59,10 @@ $primary-yellow: #f7ce00;
       transform: rotateX(-90deg) translateZ(100px);
       color: #ec4d28;
     }
+    .face7 {
+      transform: rotateX(-90deg) translateZ(100px);
+      color: grey;
+    }
     
     @keyframes spincube {
       from,
@@ -81,6 +85,32 @@ $primary-yellow: #f7ce00;
         transform: rotateX(90deg);
       }
     }
+  }
+
+  .lang span {
+    padding: 0 10% 10% 0;
+    font-size: 30px;
+  }
+
+  .dot  {
+    display: inline-block;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 2px solid $primary-yellow;
+    border-radius: 50%;
+    transition: background 1s;
+  }
+
+  .dot-none  {
+    display: inline-block;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ACACA6;
+    border-radius: 50%;
+    transition: background 1s;
   }
 
   @media (max-width: 700px){

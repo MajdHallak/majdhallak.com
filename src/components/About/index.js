@@ -11,6 +11,7 @@ import {
   faReact,
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
+import { faDatabase } from '@fortawesome/free-solid-svg-icons'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -45,6 +46,16 @@ const About = () => {
             I'm quietly confident, naturally curious, and perpetually working on
             improving my chops one design problem at a time.
           </p>
+          <div className="prog-skills">
+            <p className="lang">
+              <span>Python</span>
+              <div className="dot"></div>
+              <div className="dot"></div>
+              <div className="dot"></div>
+              <div className="dot-none"></div>
+              <div className="dot-none"></div>
+            </p>
+          </div>
         </div>
 
         <div className="stage-cube-cont">
@@ -66,6 +77,9 @@ const About = () => {
             </div>
             <div className="face6">
               <FontAwesomeIcon icon={faGitAlt} />
+            </div>
+            <div className="face7">
+              <FontAwesomeIcon icon={faDatabase} />
             </div>
           </div>
         </div>
